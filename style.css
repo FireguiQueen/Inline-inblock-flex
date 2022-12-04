@@ -7,6 +7,8 @@ body {
     background: linear-gradient(45deg, rgb(244, 163, 13),rgb(244, 155, 13), #d94915, #0f77b3d5, #10A19D,#540375);
     background-size: 400%;
     animation: change_bc 8s ease-out infinite;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 
@@ -30,6 +32,7 @@ div.block {
     background-color: #1D1C19;
     border-radius: 8px;
     color: beige;
+    height: 400px;
     width: 900px;
     padding-inline: 11px;
 }
@@ -69,11 +72,15 @@ div.block {
 .explidemons{
     margin-bottom: 19px;
     font-size: 22px;
-}.demons {
+}
+.demons {
     font-size: 1.2rem;
+    margin-bottom: 300px;
+
 }
 .explidemons, .demons{
-    color: rgba(255, 255, 255, 0.689);
+    color: rgba(255, 255, 255, 0.624);
+
 }
 
 #blo {
