@@ -31,7 +31,7 @@
 
             div.block{
                 box-sizing: border-box;
-                margin: 0px 0px 25px 15px;
+                margin: 0px 50px 25px 15    px;
                 border: 1.5px solid #e9cf39df;
                 background-color: #1D1C19;
                 border-radius: 8px;
@@ -39,6 +39,7 @@
                 width: 900px;
                 padding-inline: 11px;
             } 
+
 
             .identify{ 
                 display: flex;
@@ -64,16 +65,17 @@
             }
     
             #universal {
-                margin-inline: 150px;
                 display: flex;
-                gap: 55px;
+                gap: 40px;
             }
             .demons{ 
                 font-size: 1.5rem;
             }
     
 
-    
+            #blo{
+                margin-left: 40px;
+            }
             /* ANIMATIONS */ 
 
             /* Cards */ 
@@ -81,7 +83,7 @@
                 transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
             }
             .block:hover{
-                transform: scale(1.2);
+                transform: scale(1.04);
                 margin-inline: 3px;
                 transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
             }
@@ -106,7 +108,7 @@
                 position: absolute;
                 width: calc(100% + 5px);
                 height: calc(100% + 5px);
-                background: linear-gradient(45deg, #1D1C19, #3b322a, #FD841F, #E14D2A, #db1252);
+                background: linear-gradient(45deg, #f38130, #1D1C19);
                 z-index: -2;
                 background-size: 300%;
                 border-radius: 9.4px;
@@ -138,7 +140,7 @@
     
     
         <!-- CARD DO INBLOCK -->
-        <div class="block"> 
+        <div class="block" id="blo"> 
             <h2 class="identify">Inblock </h2> 
             <div id="cont">
                 <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
@@ -189,8 +191,3 @@
     
 </body>
 </html>
-
-
-
-
-
