@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(244, 163, 13),rgb(244, 155, 13), #d94915, #0f77b3d5, #10A19D,#540375);
+    background-size: 300%;
+    animation: change_bc 8s ease-out infinite;
+}
+
+
+header {
+    color: rgb(244, 163, 13);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 25px 0px 50px;
+    border-bottom: 1px solid rgba(244, 201, 120, 0.857);
+}
+
+
+div.block {
+    box-sizing: border-box;
+    margin: 0px 50px 25px 15 px;
+    border: 1.5px solid #e9cf39df;
+    background-color: #1D1C19;
+    border-radius: 8px;
+    color: beige;
+    width: 900px;
+    padding-inline: 11px;
+}
+
+
+.identify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 15px auto;
+    margin-bottom: 25px;
+    background-color: #1D1C19;
+    box-shadow: 5px 3px 9px 0px rgba(0,0,0,0.75);
+
+
+    height: 30px;
+    width: 100px;
+    color: #F7DD43;
+    border: 1.5px solid #e9d04476;
+    border-radius: 9.4px;
+    text-align: center;
+}
+
+.explication {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#universal {
+    display: flex;
+    gap: 40px;
+}
+
+.demons {
+    font-size: 1.5rem;
+}
+
+
+#blo {
+    margin-left: 40px;
+}
+
+
+
+/* ANIMATIONS */
+
+/*    Background    */
+@keyframes change_bc {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+/*    Cards    */
+.block {
+    transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
+}
+.block:hover {
+    transform: scale(1.04);
+    margin-inline: 3px;
+    transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
+}
+
+
+
+/*    Border    */
+.identify::before,
+.identify::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background: linear-gradient(45deg, #e9f330, #92908f);
+    z-index: -2;
+    background-size: 500%;
+    border-radius: 9.4px;
+    animation: border_animation 4s linear alternate infinite;
+}
+.identify::after {
+    filter: blur(11.4px);
+}
+@keyframes border_animation {
+    0%{
+        background-position: 0%;
+    }
+
+    50%{
+        background-position: 50%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
