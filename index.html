@@ -16,11 +16,13 @@
     
         <!-- CARD DO INBLOCK -->
         <div class="block" id="blo"> 
-            <h2 class="identify">Inblock </h2> 
+            <h2 class="identify">Inblock</h2> 
             <div id="cont">
                 <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
-                <div class="demons"> <code> &lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> &lt;q&gt;<q class="demons">Olá, amigo!</q>&lt;&sol;q&gt; </code>
-                <p class="explidemons"> A frase "Olá, amigo" está ao lado da tag <code>&lt;div&gt;</code> em nosso código, mas em nossa página, esta mesma frase se encontra em outra linha. Isto ocorre pois a tag <code>&lt;div&gt;</code> é um display inblock, ou seja, o conteúdo desta tag irá ocupar um bloco próprio.</p> 
+                <p class="explidemons"> No exemplo abaixo utilizamos de duas tags, sendo uma tag display inblock e a outra inline. Pelo fato da tag &lt;div&gt; ser display inblock, ela irá ocupar um espaço próprio, enquanto a tag &lt;q&gt; não ocupa espaço próprio, foi apenas separada por conta da tag div</p>
+                <span class="demons">
+                    <div><code> &lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> &lt;q&gt;&nbsp;<q>Olá, amigo!</q>&nbsp;&lt;&sol;q&gt; </code>
+                </span> 
             </div>
         </div>
     

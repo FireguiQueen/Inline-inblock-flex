@@ -5,7 +5,7 @@
 
 body {
     background: linear-gradient(45deg, rgb(244, 163, 13),rgb(244, 155, 13), #d94915, #0f77b3d5, #10A19D,#540375);
-    background-size: 300%;
+    background-size: 400%;
     animation: change_bc 8s ease-out infinite;
 }
 
@@ -23,6 +23,7 @@ h1 {
 
 
 div.block {
+
     box-sizing: border-box;
     margin: 0px 50px 25px 15 px;
     border: 1.5px solid #e9cf39df;
@@ -56,7 +57,7 @@ div.block {
 .explication {
     text-align: center;
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 
 #universal {
@@ -64,10 +65,16 @@ div.block {
     gap: 40px;
 }
 
-.demons {
-    font-size: 1.5rem;
-}
 
+.explidemons{
+    margin-bottom: 19px;
+    font-size: 22px;
+}.demons {
+    font-size: 1.2rem;
+}
+.explidemons, .demons{
+    color: rgba(255, 255, 255, 0.689);
+}
 
 #blo {
     margin-left: 40px;
