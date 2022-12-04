@@ -41,7 +41,7 @@ div.block {
     position: relative;
     margin: 15px auto;
     margin-bottom: 25px;
-    background-color: #1D1C19;
+    background-color: #1f1e19;
     box-shadow: 3.8px 3px 9px 0px rgba(0,0,0,0.75);
 
 
@@ -113,11 +113,11 @@ div.block {
     position: absolute;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    background: linear-gradient(45deg, #e9f330, #92908f);
+    background: linear-gradient(45deg, #1f1e19,#2b281c, #e9f330, #ea9917, #92908f);
     z-index: -2;
-    background-size: 500%;
+    background-size: 600%;
     border-radius: 9.4px;
-    animation: border_animation 4s linear alternate infinite;
+    animation: border_animation 2.5s linear alternate infinite;
 }
 .identify::after {
     filter: blur(11.4px);
