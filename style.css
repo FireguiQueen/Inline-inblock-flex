@@ -1,12 +1,12 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     background: linear-gradient(45deg, rgb(244, 163, 13),rgb(244, 155, 13), #d94915, #0f77b3d5, #10A19D,#540375);
     background-size: 400%;
-    animation: change_bc 8s ease-out infinite;
+    animation: change_bc 13s ease-out infinite;
     height: 100vh;
     background-repeat: no-repeat;
 }
@@ -19,22 +19,21 @@ header {
 }
 
 h1 {
-    margin: 25px 0px 50px;
+    margin: 25px 0px 55px;
     border-bottom: 1px solid rgba(244, 201, 120, 0.857);
+    border-radius: 4px;
 }
 
 
-
 div.block {
-
-    box-sizing: border-box;
-    margin: 0px 50px 25px 15 px;
+    box-sizing: content-box;
+    margin: 0px 0px 25px 15px;    
+    height: 480px;
+    width: 900px;
     border: 1.5px solid #e9cf39df;
     background-color: #1D1C19;
     border-radius: 8px;
     color: beige;
-    height: 400px;
-    width: 900px;
     padding-inline: 11px;
 }
 
@@ -48,7 +47,6 @@ div.block {
     margin-bottom: 25px;
     background-color: #1f1e19;
     box-shadow: 3.8px 3px 9px 0px rgba(0,0,0,0.75);
-
 
     height: 30px;
     width: 100px;
@@ -65,8 +63,9 @@ div.block {
 }
 
 #universal {
+    margin-inline: 150px;
     display: flex;
-    gap: 40px;
+    gap: 55px;
 }
 
 
@@ -76,8 +75,6 @@ div.block {
 }
 .demons {
     font-size: 1.2rem;
-    margin-bottom: 300px;
-
 }
 .explidemons, .demons{
     color: rgba(255, 255, 255, 0.624);
@@ -114,26 +111,27 @@ div.block {
     transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
 }
 .block:hover {
-    transform: scale(1.048);
+    transform: scale(1.08);
     margin-inline: 3px;
     transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
 }
 
 
 
-/*    Border    */
-.identify::before,
-.identify::after {
+/* Border */ 
+.identify::before, 
+.identify::after{
     content: "";
     position: absolute;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    background: linear-gradient(45deg, #1f1e19,#876521, #e9f330, #ea9917, #92908f);
+    width: calc(100% + 3.1px);
+    height: calc(100% + 3.1px);
+    background: linear-gradient(45deg, #1D1C19, #3b322a, #FD841F, #E14D2A, #db1252);
     z-index: -2;
-    background-size: 600%;
+    background-size: 300%;
     border-radius: 9.4px;
-    animation: border_animation 2.5s linear alternate infinite;
+    animation: border_animation 2s linear alternate 0.4s infinite;
 }
+
 .identify::after {
     filter: blur(11.4px);
 }
