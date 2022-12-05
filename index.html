@@ -10,13 +10,13 @@
 </head> 
 <body>
     <header>
-        <h1>Inblock, &nbsp;flex & inline  </h1>
+        <h1>Inblock, &nbsp;inline & flex</h1>
     </header>
     <div id="universal">
     
     
         <!-- CARD DO INBLOCK -->
-        <div class="block" id="blo"> 
+        <div class="block" id="bloco1"> 
             <h2 class="identify">Inblock</h2> 
             <div id="cont">
                 <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
@@ -29,7 +29,7 @@
     
     
         <!-- Card do INLINE-->
-        <div class="block">
+        <div class="block" id="bloco2">
             <h2 class="identify">Inline</h2> 
             <p class="explication"> A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação (abbr), tag para negrito (em), tag de imagem (img) e entre outras..</p>
             <p class="explidemons"> No exemplo abaixo utilizamos duas tags, ambas são display inline. A frase "Olá pessoal" é uma tag <code>&lt;span&gt;</code> e a frase ao lado é uma tag <code>&lt;q&gt;</code>. Em nossa página ambas as frases ficam no mesmo bloco, no mesmo espaço, e isto ocorre pois tags inline não ocupam espaço próprio</p> 
@@ -37,10 +37,23 @@
                 <p>&lt;span&gt; <span>Olá pessoal!</span> &lt;&sol;span&gt; &nbsp;&nbsp; &lt;q&gt;&nbsp;<q>Olá, amigo!</q>&nbsp;&lt;&sol;q&gt; </p>
             </span>
         </div>
-        
-    
-
     </div>
+
+    <div>
+        <!-- Card do FLEX-->
+        <div class="block" id="bloco3">
+            <h2 class="identify">Flex</h2> 
+            <p class="explication"> Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas.</p>
+            <p class="explidemons"> </p> 
+            <span class="demons"> 
+                <p>&lt;span&gt; <span>Olá pessoal!</span> &lt;&sol;span&gt; &nbsp;&nbsp; &lt;q&gt;&nbsp;<q>Olá, amigo!</q>&nbsp;&lt;&sol;q&gt; </p>
+            </span>
+        </div>
+    </div>        
+    
+    
+    </div>
+
 
 
     
