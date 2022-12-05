@@ -162,6 +162,17 @@ div.block {
 
 
 
+::-webkit-scrollbar{
+    width: 13px;
+    background-color: #8b87847f;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2b2b21;
+    border: 1px solid #393932;
+
+}
+
 
 
 
