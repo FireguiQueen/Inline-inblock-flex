@@ -168,11 +168,11 @@ div.block {
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #2b2b21;
+    background-color: #27271e;
     border: 1px solid #393932;
     border-radius: 4px;
 }
 ::-webkit-scrollbar-button{
-    background-color: #2b2b21c2;
+    background-color: #2b2b2135;
 }
 
