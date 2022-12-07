@@ -138,7 +138,9 @@ div.block {
 ::-webkit-scrollbar-button{
     background-color: #2b2b2135;
 }
-
+::-webkit-scrollbar-thumb:hover {
+    background-color: #000000f5;
+}
 
 
 
