@@ -174,8 +174,7 @@ div.block {
 
 
                     /* Border */ 
-.identify::before, 
-.identify::after{
+.identify::before, .identify::after{
     content: "";
     position: absolute;
     width: calc(100% + 3.1px);
@@ -184,11 +183,11 @@ div.block {
     z-index: -2;
     background-size: 300%;
     border-radius: 9.4px;
-    animation: border_animation 2s linear alternate 0.4s infinite;
+    animation: border_animation 2s linear alternate infinite;
 }
 
 .identify::after {
-    filter: blur(11.4px);
+    filter: blur(20.4px);
 }
 @keyframes border_animation {
     0%{
