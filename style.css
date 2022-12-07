@@ -98,7 +98,19 @@ div.block {
 
 
 
-
+/*  Código de demonstração */ 
+#altbody{
+    color: #d7403b;
+}
+.chaves{
+    color: rgb(212, 212, 54);
+}
+.propriedade{
+    color:#239fc1;
+}
+.propertyvalue{
+    color:rgb(244, 163, 13);
+}
 /* ANIMATIONS */
 
 /*    Background    */
