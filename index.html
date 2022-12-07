@@ -19,11 +19,11 @@
         <div class="block" id="bloco1"> 
             <h2 class="identify">Inblock</h2> 
             <div id="cont">
-                <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
-                <p class="explidemons"> No exemplo abaixo utilizamos duas tags, sendo uma tag display inblock e a outra inline. Pelo fato da tag div ser display inblock, ela irá ocupar um espaço próprio, enquanto a tag &lt;q&gt; não ocupa espaço próprio, foi apenas separada por conta da tag div</p>
-                <span class="demons">
-                    <div><code> &lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> &lt;q&gt;&nbsp;<q>Olá, amigo!</q>&nbsp;&lt;&sol;q&gt; </code>
-                </span> 
+                <p class="explication">A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
+                <p class="explidemons">No exemplo abaixo utilizamos duas tags, sendo uma tag display inblock e a outra inline. Pelo fato da tag div ser display inblock, ela irá ocupar um espaço próprio, enquanto a tag &lt;q&gt; não ocupa espaço próprio, foi apenas separada por conta da tag div</p>
+                <div class="demons">
+                    <p id="k"> <div><code>&lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> &lt;q&gt;&nbsp;<q>Olá, amigo!</q>&nbsp;&lt;&sol;q&gt; </code></p>
+                </div> 
             </div>
         </div>
     
@@ -31,8 +31,8 @@
         <!-- Card do INLINE-->
         <div class="block" id="bloco2">
             <h2 class="identify">Inline</h2> 
-            <p class="explication"> A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação (abbr), tag para negrito (em), tag de imagem (img) e entre outras..</p>
-            <p class="explidemons"> No exemplo abaixo utilizamos duas tags, ambas são display inline. A frase "Olá pessoal" é uma tag <code>&lt;span&gt;</code> e a frase ao lado é uma tag <code>&lt;q&gt;</code>. Em nossa página ambas as frases ficam no mesmo bloco, no mesmo espaço, e isto ocorre pois tags inline não ocupam espaço próprio</p> 
+            <p class="explication">A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação (abbr), tag para negrito (em), tag de imagem (img) e entre outras..</p>
+            <p class="explidemons">No exemplo abaixo utilizamos duas tags, ambas são display inline. A frase "Olá pessoal" é uma tag <code>&lt;span&gt;</code> e a frase ao lado é uma tag <code>&lt;q&gt;</code>. Em nossa página ambas as frases ficam no mesmo bloco, no mesmo espaço, e isto ocorre pois tags inline não ocupam espaço próprio</p> 
             <span class="demons"> 
                 <p>&lt;span&gt; <span>Olá pessoal!</span> &lt;&sol;span&gt; &nbsp;&nbsp; &lt;q&gt;&nbsp;<q>Olá, amigo!</q>&nbsp;&lt;&sol;q&gt; </p>
             </span>
@@ -44,16 +44,18 @@
         <div class="block" id="bloco3">
             <h2 class="identify">Flex</h2> 
             <p class="explication"> Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas.</p>
-            <p class="explidemons"> O display flex é muito utilizado alinhar elementos, pois ele nos proporciona novas propriedades CSS. Digamos que você queira centralizar uma div no meio de sua página, seria bem simples: </p>
+            <p class="explidemons"> O display flex é muito utilizado alinhar elementos, pois ele nos proporciona novas propriedades. Digamos que você queira centralizar uma div no meio de sua página, seria bem simples: </p>
             <code> 
                 <pre>
     <span id="altbody">body</span><span class="chaves">{</span> 
         <span class="propriedade">display:</span> <span class=" propertyvalue">flex;</span>
-        <span class="propriedade">justify-content:</span> <span class="propertyvalue">center; (Alinha horizontalmente) </span>
-        <span class="propriedade">align-items:</span> <span class="propertyvalue">center; (alinha verticalmente) </span>
+        <span class="propriedade">justify-content:</span> <span class="propertyvalue">center;</span> <span class="coments">/* Alinha horizontalmente */</span>
+        <span class="propriedade">align-items:</span> <span class="propertyvalue">center;</span>     <span class="coments">/* Alinha verticalmente   */</span>
     <span class="chaves">}</span>
                 </pre>
             </code> 
+            <p class="explidemons">Vale lembrar que, após colocarmos o display flex na tag pai, todas as filhas irão ficar juntas em uma única linha, então neste caso podemos utilizar da propriedade "gap" ou "flex-direction". Leia mais <a href="https://origamid.com/projetos/flexbox-guia-completo/">sobre</a></p>
+
         </div>
 
 
