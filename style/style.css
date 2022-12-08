@@ -17,6 +17,7 @@ header{
     align-items: center;
     background-color: #3c3c3b;
     color: rgb(244, 163, 13);
+    width: 1340px;
     height: 90px;
     border-radius: 0 0 40px 40px;
     box-shadow: 10px 9px 68px -17px rgba(0,0,0,0.77);
@@ -58,7 +59,7 @@ li{
 
 div.block {
     box-sizing: content-box;
-    width: 830px;
+    width: 860px;
     border: 1.5px solid #e9cf39df;
     background-color: #1D1C19;
     border-radius: 8px;
@@ -67,7 +68,7 @@ div.block {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
 
 }
 
