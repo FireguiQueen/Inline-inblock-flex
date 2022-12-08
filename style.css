@@ -5,7 +5,7 @@
 
 body{
     background: linear-gradient(45deg, rgb(244, 163, 13),rgb(244, 155, 13), #d94915, #0f77b3d5, #10A19D,#540375);
-    background-size: 400%;
+    background-size: 300%;
     animation: change_bc 13s ease-out infinite;
     height: 125vh;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ div.block {
     background-color: #2b2b2135;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #000000f5;
+    background-color: #3f3f3ff5;
 }
 
 
