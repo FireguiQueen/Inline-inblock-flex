@@ -22,7 +22,7 @@ header {
 h1 {
     margin: 25px 0px 55px;
     border-bottom: 1px solid rgba(244, 201, 120, 0.857);
-    border-radius: 4px;
+    border-radius: 0 0 5px 5px;
 }
 
 
