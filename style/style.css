@@ -38,15 +38,24 @@ ul{
 }
 .contact{
     color: white;
+    background-color: rgb(58, 56, 56);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 4px;
+    border: 1px solid rgb(26, 24, 24);
+    border-radius: 6px;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
 
 }
+
 li{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 5px;
 }
 
 div.block {
