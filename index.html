@@ -23,9 +23,8 @@
     </header>
 
     <div id="universal">
-
         <!-- CARD DO INBLOCK -->
-        <div class="block" id="bloco1"> 
+        <div class="block"> 
             <h2 class="identify">Block</h2> 
             <div id="cont">
                 <p class="explication">A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
@@ -36,9 +35,8 @@
             </div>
         </div>
     
-    
         <!-- Card do INLINE-->
-        <div class="block" id="bloco2">
+        <div class="block">
             <h2 class="identify">Inline</h2> 
             <p class="explication">A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação (abbr), tag para negrito (em), tag de imagem (img) e entre outras..</p>
             <p class="explidemons">No exemplo abaixo utilizamos duas tags, ambas são display inline. A frase "Olá pessoal" é uma tag <code>&lt;span&gt;</code> e a frase ao lado é uma tag <code>&lt;q&gt;</code>. Em nossa página ambas as frases ficam no mesmo bloco, no mesmo espaço, e isto ocorre pois tags inline não ocupam espaço próprio</p> 
@@ -47,10 +45,8 @@
             </span>
         </div>
 
-    </div>
-
         <!-- Card do FLEX-->
-        <div class="block" id="bloco3">
+        <div class="block">
             <h2 class="identify">Flex</h2> 
             <p class="explication"> Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas.</p>
             <p class="explidemons"> O display flex é muito utilizado posicionar os elementos, pois ele nos proporciona novas propriedades. Digamos que você queira centralizar uma div no meio de sua página, seria bem simples: </p>
@@ -63,12 +59,10 @@
     <span class="chaves">}</span>
                 </pre>
             </code> 
-            <p class="explidemons">Vale lembrar que, após colocarmos o display flex na tag pai, todas as filhas irão ficar juntas em uma única linha, então neste caso podemos utilizar da propriedade "gap" ou "flex-direction". Leia mais <a href="https://origamid.com/projetos/flexbox-guia-completo/">sobre</a> ou veja este <a href="https://youtu.be/gOMK_xruAqc">tutorial</a></p> 
+            <p class="explidemons" style="margin-bottom: 0;">Vale lembrar que, após colocarmos o display flex na tag pai, todas as filhas irão ficar juntas em uma única linha, então neste caso podemos utilizar da propriedade "gap" ou "flex-direction". Leia mais <a href="https://origamid.com/projetos/flexbox-guia-completo/">sobre</a> ou veja este <a href="https://youtu.be/gOMK_xruAqc">tutorial</a></p> 
         </div>
 
-
-
-    
+    </div>
     <!-- 
     - Comportamento das caixas em relação a outras caixas
     
@@ -81,13 +75,11 @@
     > Não ocupa toda a linha, a próxima tag irá continuar ao lado
     > Width e height não funcionam
     > Somente valores horizontais de padding, margin e border são respeitados. 
-    
-    
+
     * Flex
     > É bem flexível em relação a posição do conteúdo 
     > Adiciona mais proprieties 
     > Junta as tags irmãs, "gap: " será necessário.
     -->
-    
 </body>
 </html>
