@@ -4,9 +4,9 @@
 }
 
 body{
-    background: linear-gradient(45deg, rgb(244, 163, 13),rgb(244, 155, 13), #d94915, #0f77b3d5, #10A19D,#540375);
-    background-size: 300%;
-    animation: change_bc 13s ease-out infinite;
+    background-image: linear-gradient(45deg,rgb(13, 13, 13) 10%, #221133);
+    background-size: 10000%;
+    animation: change_bc 10s ease-out infinite;
     height: 130vh;
     background-repeat: no-repeat;
 }
@@ -15,7 +15,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    background-color: #3c3c3b;
+    background-color: #262522;
     color: rgb(244, 163, 13);
     width: 1340px;
     height: 90px;
@@ -38,7 +38,7 @@ ul{
 }
 .contact{
     color: rgb(255, 255, 255);
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(41, 39, 39);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ li{
 
 div.block {
     box-sizing: content-box;
-    width: 860px;
+    width: 830px;
     border: 1.5px solid #e9cf39df;
     background-color: #1D1C19;
     border-radius: 8px;
@@ -104,10 +104,10 @@ div.block {
 
 #universal {
     display: flex;
-    justify-content:first baseline;
+    justify-content: space-around;
     gap: 60px;
     flex-wrap: wrap;
-    margin-inline: 30px;
+    margin-left: 20px;
 }
  
 
@@ -193,7 +193,9 @@ div.block {
     transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
 }
 
-
+.contact:hover{
+    background-color: #e0a905b1;
+}
 
                     /* Border */ 
 .identify::before, .identify::after{
