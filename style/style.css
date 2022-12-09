@@ -184,6 +184,12 @@ div.block {
 }
 
 
+::selection{
+    background-color: rgb(56, 56, 104);
+    color:rgb(213, 192, 26)
+}
+
+
                     /*    Cards    */
 .block {
     transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
