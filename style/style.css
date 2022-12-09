@@ -4,8 +4,8 @@
 }
 
 body{
-    background-image: linear-gradient(45deg,rgb(13, 13, 13) 10%, #221133);
-    background-size: 10000%;
+    background-image: linear-gradient(45deg,rgb(13, 13, 13) 10%, #221133, #270a0a );
+    background-size: 600%;
     animation: change_bc 10s ease-out infinite;
     background-repeat: no-repeat;
     height: 150vh;
@@ -196,6 +196,8 @@ div.block {
 
 .contact:hover{
     background-color: #e0a905b1;
+    box-shadow: 0px 0px 40px 3px rgba(55, 52, 52, 0.77);
+
 }
 
                     /* Border */ 
