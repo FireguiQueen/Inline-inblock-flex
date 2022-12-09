@@ -9,7 +9,6 @@ body{
     animation: change_bc 10s ease-out infinite;
     background-repeat: no-repeat;
     height: 150vh;
-
 }
 
 
@@ -33,7 +32,7 @@ h1 {
 }
 ul{
     box-sizing: border-box;
-    padding-inline: 14px;
+    padding-inline: 22px;
     width: 100%;
     display: flex;
     align-items: center;
