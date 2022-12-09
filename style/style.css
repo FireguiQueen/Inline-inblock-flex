@@ -32,10 +32,12 @@ h1 {
     border-radius: 0 0 5px 5px;
 }
 ul{
+    box-sizing: border-box;
+    padding-inline: 14px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .contact{
     color: rgb(255, 255, 255);
@@ -56,6 +58,7 @@ li{
     align-items: center;
     justify-content: center;
     list-style: none;
+    gap: 6.4px;
 }
 
 div.block {
